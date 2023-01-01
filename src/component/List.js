@@ -54,7 +54,7 @@ export const List = ({ list, setList }) => {
                 style={{ fontSize: "20px", color: "#c11c" }}
                 onClick={() => {
                   setList((p) =>
-                    p.filter((f)=> f.id !== record.id)
+                    p.filter((f)=> f !== record)
                     )
                 }}
               />
