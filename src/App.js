@@ -83,7 +83,7 @@ export const App = () => {
           <DeliverPrice />
         </Col>
         <Col span={12}>
-          <CountDown />
+          <CountDown  time= {"13:21"}  />
         </Col>
       </Row>
     </>
