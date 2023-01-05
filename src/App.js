@@ -5,6 +5,7 @@ import { AutoComplete } from "antd";
 import { getAllProducts } from "./API";
 import { List } from "./component/List";
 import { DeliverPrice } from "./component/DeliverPrice";
+import { CountDown } from "./component/CountDown";
 
 export const App = () => {
   //Search
@@ -78,9 +79,12 @@ export const App = () => {
             Checkout
           </Button>
         </Col>
-          <Col span={12}>
+        <Col span={12}>
           <DeliverPrice />
-          </Col>
+        </Col>
+        <Col span={12}>
+          <CountDown />
+        </Col>
       </Row>
     </>
   );
