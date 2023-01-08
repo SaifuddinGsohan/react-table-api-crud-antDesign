@@ -83,8 +83,8 @@ export const App = () => {
           <DeliverPrice />
         </Col>
         <Col span={12}>
-          {/* time = 12:00 (HH:MM 24) date = 2023-01-06 (yyyy-mm-dd) */}
-          <CountDown  time= {"12"} date={"2023-01-08"}  />
+          {/* time = 6:00:00 PM (HH:MM:SS 24 || 12), date = 2023-01-06 (yyyy-mm-dd || yyyy/mm/dd), auto for color change if countDown under 0 */}
+          <CountDown  time= {"4:42 PM"} date={"2023-01-08"} auto />
         </Col>
       </Row>
     </>
